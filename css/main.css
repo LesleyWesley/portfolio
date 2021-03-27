@@ -415,6 +415,10 @@ nav {
   margin: 0;
 }
 
+#portfolio h6 {
+  width: 100%;
+}
+
 .project {
   display: flex;
   justify-content: center;
