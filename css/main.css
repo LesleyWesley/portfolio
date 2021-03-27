@@ -446,6 +446,15 @@ button {
   padding: 15px;
 }
 
+.development-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
 /*======== SERVICES SECTION =============*/
 
 #services {
@@ -723,7 +732,7 @@ ul {
 }
 
 
-/*========== HERO SECTION ===================*/
+/*========== HERO SECTION - TABLET ===================*/
 
 #hero {
   background: url(../img/hero-image.png);
@@ -777,6 +786,10 @@ h4 {
 
 #portfolio .half-width {
   width: 45%;
+}
+
+#portfolio .development-section .project {
+  margin: 50px 0;
 }
 
 /*=================== SERVICES SECTION - TABLET ================*/
@@ -905,6 +918,11 @@ button {
   font-size: 1.85em;
   margin-top:50px;
 }
+
+#portfolio .development-section .project {
+  align-items: center;
+}
+
 
 /*======== SERVICES SECTION - SMALL DESKTOP ===========*/
 
