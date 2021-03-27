@@ -157,6 +157,7 @@ h5 {
   color: #5941A9;
   text-align: center;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 h6 {
@@ -667,6 +668,8 @@ i#copyright.far.fa-copyright {
     margin-right: 75px;
   }
 }
+
+
 
 @media only screen and (min-width: 550px) {
 
