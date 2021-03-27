@@ -564,22 +564,32 @@ button {
 
 
 
-i#copyright.far.fa-copyright {
-  color: #FCEEF9;
-  font-size: .8em;
-  margin-bottom: 0;
-  padding: 0 5px;
-}
-
-
 .copyright-div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: nowrap;
+  width: 100%;
+}
+
+.copyright-div p {
+  margin: 5px 0;
+  font-size: .75em;
 }
 
 
+ i.far.fa-copyright::before {
+  font-size: .3em;
+}
+
+#contact .far.fa-copyright {
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+}
 
 
 
