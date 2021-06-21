@@ -95,7 +95,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #FCEEF9;
+  background-color: #1F202B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,16 +145,16 @@ h3 span {
 h4 {
   font-family: 'Abril Fatface', cursive;
   font-size: 1.5em;
-  color: #5941A9;
+  color: #D4F5F5;
   padding: 0 5px 3px 5px;
-  border-bottom: 1px solid #5941A9;
+  border-bottom: 1px solid #D4F5F5;
 }
 
 h5 {
   font-family: 'Raleway', sans-serif;
   font-size: 1.25em;
   font-weight: bold;
-  color: #5941A9;
+  color: #D4F5F5;
   text-align: center;
   margin-bottom: 10px;
   width: 100%;
@@ -164,7 +164,7 @@ h6 {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-style: italic;
-  color: #5941A9;
+  color: #D4F5F5;
   text-align: center;
   font-weight: lighter;
   margin: 5px 0;
@@ -173,7 +173,7 @@ h6 {
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  color: #5941A9;
+  color: #D4F5F5;
   line-height: 30px;
 }
 
@@ -184,7 +184,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #5941A9;
+  color: #D4F5F5;
 }
 
 /******* GRID STYLES*******/
@@ -271,7 +271,7 @@ nav {
   width: 25px;
   height: 25px;
   padding: 1rem;
-  background: rgba(252, 238, 249, .75);
+  background: rgba(31, 32, 43, .75);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,7 +283,7 @@ nav {
   position: relative;
   width: 100%;
   height: 2px;
-  background-color: #5941A9;
+  background-color: #D4F5F5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -299,7 +299,7 @@ nav {
   top: -10px;
   width: 100%;
   height: 2px;
-  background: #5941A9;
+  background: #D4F5F5;
 }
 
 .menu-wrap .hamburger > div:after {
@@ -349,7 +349,7 @@ nav {
 }
 
 .menu-wrap .menu > div {
-  background-color: rgba(252, 238, 249, .90);
+  background-color: rgba(31, 32, 43, .95);
   border-radius: 50%;
   width: 100vw;
   height: 100vw;
@@ -448,10 +448,16 @@ nav {
 
 .button {
   font-size: 1.25em;
-  color: #5941A9;
-  background-color: #FCEEF9;
-  border: 1px solid #5941A9;
+  color: #D4F5F5;
+  background-color: #1F202B;
+  border: 1px solid #D4F5F5;
   padding: 15px;
+}
+
+.button:hover {
+  color: #1F202B;
+  background-color: #D4F5F5;
+  border: 1px solid #1F202B;
 }
 
 .development-section {
@@ -479,24 +485,24 @@ nav {
 }
 
 #services h4 {
-  color: #FCEEF9;
-  border-bottom: 1px solid #FCEEF9;
+  color: #D4F5F5;
+  border-bottom: 1px solid #D4F5F5;
   margin-top: 0;
 }
 
 #services i {
-  color: #FCEEF9;
+  color: #D4F5F5;
   margin-top: 25px;
   font-size: 5em;
 }
 
 #services h5 {
-  color: #FCEEF9;
+  color: #D4F5F5;
   width: 100%;
 }
 
 #services p {
-  color: #FCEEF9;
+  color: #D4F5F5;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -539,20 +545,20 @@ nav {
 }
 
 #contact h4 {
-  color: #FCEEF9;
-  border-bottom: 1px solid #FCEEF9;
+  color: #D4F5F5;
+  border-bottom: 1px solid #D4F5F5;
 }
 
 #contact h5 {
-  color: #FCEEF9;
+  color: #D4F5F5;
 }
 
 #contact p {
-  color: #FCEEF9;
+  color: #D4F5F5;
 }
 
 #contact h6 {
-  color: #FCEEF9;
+  color: #D4F5F5;
   font-family: 'Abril Fatface', cursive;
   font-style: normal;
   font-size: 1.125em;
@@ -562,11 +568,11 @@ nav {
 
 #contact a {
   text-decoration: none;
-  color: #FCEEF9;
+  color: #D4F5F5;
 }
 
 #contact i {
-  color: #FCEEF9;
+  color: #D4F5F5;
   font-size: 2.2em;
   padding: 0 15px;
   margin-bottom: 75px;
