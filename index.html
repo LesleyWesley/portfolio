@@ -21,12 +21,12 @@
 
   <meta name="theme-color" content="#fafafa">
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/5656f89359.js" crossorigin="anonymous"></script>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Audiowide&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -34,254 +34,236 @@
 
   <!-- Add your site or application content here -->
   <header>
-      <div class="full-width">
+      <div class="container">
+          <div class="logo-div">
+              <i class="fa-solid fa-code"></i>
+              <p class="name">Lesley<span class="last-name">Wesley</span></p>
+          </div>
 
-        <nav>
-
-        <div class="nav-options">
-            <ul>
-              <li><a href="#portfolio">PORTFOLIO</a></li>
-              <li><a href="#services">SERVICES</a></li>
-            </ul>
-        </div>
-
-        <div class="half-width, name">
-            <h1 class="first-name">Lesley</h1>
-            <h1 class="last-name">Wesley</h1>
-        </div>
-
-        <div class="nav-options">
-          <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-
-      </nav>
-
-        <div class="half-width, menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger">
-                <div>
-                </div>
-            </div>
-            <div class="menu">
-                <div>
+          <nav aria-label="Main Navigation">
+            <div class="half-width, menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
                     <div>
-                        <ul>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#services">SERVICES</a></li>
-                            <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-      </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
 
+                <div class="desktop-nav">
+                  <ul>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+
+          </nav>
+      </div>
   </header>
 
   <main>
-
       <section id="hero">
-          <div class="full-width">
-              <div class="top-half">
-                  <h2>Hello!</h2>
-                  <h2 class="second-line">I'm a Front-End Designer & Developer</h2>
-              </div>
-
-              <div class="bottom-half">
-                  <h3>I thrive on<br><span>Bold Designs</span><br>and <span>Elegant Code</span></h3>
-              </div>
-          </div>
-      </section>
-
-      <section id="portfolio">
-          <div class="full-width">
-              <h4>Latest Projects</h4>
-
-
-
-            <div class="project">
-                <div class="half-width">
-                  <figure>
-                          <img class="sit-conmigo" src="img/ecommercesite.jpg" alt="E-Commerce Site" />
-                  </figure>
-                </div>
-                <div class="half-width">
-                    <h5>E-Commerce Demo Site</h5>
-                    <h6>Built with HTML5, CSS3, & JavaScript</h6>
-                    <p>A fully-responsive, one-page e-commerce product page for a sneaker company.  JavaScript elements include the cart functionality, as well as a photo carousel for the mobile version, and an image lightbox for the desktop version.</p>
-                    <a href="https://lesleywesley.github.io/ecommerce-product-page/" target="_blank" class="button">
-                        View Demo Site
-                    </a>
-                </div>
-            </div>
-
-
-
-            <div class="development-section">
-                <div class="project">
-                    <div class="half-width">
-                        <h5>Advice Generator App</h5>
-                        <h6>Built with HTML, CSS, JavaScript, and the Advice Slip API</h6>
-                        <p>A fully-responsive app that utilizes the <a href="https://api.adviceslip.com/" target="_blank">Advice Slip API</a> to generate a random piece of advice when the button is clicked.</p>
-                        <a href="https://lesleywesley.github.io/advice-generator/" target="_blank" class="button">
-                            View Live Site
-                        </a>
-                    </div>
-                    <div class="half-width, reverse">
-                        <figure>
-                            <img src="img/advice-generator.jpg" alt="Advice Generator" />
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <div class="half-width">
-                        <figure>
-                            <img src="img/tip-calculator.jpg" alt="Tip Calculator" />
-                        </figure>
-                    </div>
-                    <div class="half-width">
-                        <h5>Tip Calcutor</h5>
-                        <h6>Built with HTML5, CSS3, & JavaScript</h6>
-                        <p>Bad at math but love getting dinner with friends? This tip calculator takes the stress out of those weekly get-togethers by calculating your portion of the check and tip, based on the total price of dinner and the number of people. </p>
-                        <a href="https://lesleywesley.github.io/tip-calculator/" target="_blank" class="button">
-                          View Live Site
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="half-width">
-                        <h5>Unplugged Website</h5>
-                        <h6>Built with HTML5 & CSS3</h6>
-                        <p>A fully-responsive, multi-page site for a company specializing in teambuilding work retreats. Features a newsletter sign-up section and customer testimonials, as well as extra pages for Frequently Asked Questions and Contact Information.</p>
-                        <a href="https://lesleywesley.github.io/unplugged-retreat-project/" target="_blank" class="button">
-                          View Demo Site
-                        </a>
-                    </div>
-                    <div class="half-width, reverse">
-                        <figure>
-                            <img src="img/unplugged-screenshot.png" alt="Unplugged" />
-                        </figure>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-          </div>
-      </section>
-
-      <section id="services">
-          <div class="full-width">
-              <h4>Services</h4>
-
-              <div class="service-list">
-
-                <div class="third-width">
-                    <div class="service-icon">
-                        <i class="fas fa-pencil-ruler"></i>
-                    </div>
-                    <div class="service-description">
-                      <h5>UX/UI Website Design</h5>
-                      <p>Whether you're looking for more clients, followers, or subscribers, I'll make sure that I design a website that represents who <strong>you</strong> are, and helps you reach every one of your goals.
-                      </div>
-                    </div>
-
-                <div class="third-width" id="middle-service">
-
-                    <div class="service-description">
-                        <h5>Hand-coded HTML & CSS</h5>
-                        <p>I hand-code all of my websites using semantic HTML and CSS in order to optimize accessability.  I always follow best practices and stay up-to-date on new developments and trends, to ensure you get the best website possible.</p>
-                    </div>
-                    <div class="service-icon, reverse">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                </div>
-
-                <div class="third-width">
-                    <div class="service-icon">
-                        <i class="fab fa-wordpress"></i>
-                    </div>
-                    <div class="service-description">
-                        <h5>Wordpress Themes</h5>
-                        <p>Dreaming of the perfect Wordpress site, but not sure where to start?  No worries!  I've got your design and build covered, complete with all the widgets and custom field types you've been dreaming about.</p>
-                    </div>
-                </div>
+          <div class="main-container">
+              <div class="hero-content">
+                  <h1>Hi, my name is <span class="hero-name">Lesley Wesley</h1>
+                  <p>I'm a Responsive Web Developer.</br>Let's build something cool together.</p>
+                  <a href="#portfolio" class="view-portfolio-link">View Portfolio</a>
               </div>
           </div>
       </section>
 
       <section id="about">
-          <div class="full-width">
-              <h4>I Should Probably Introduce Myself...</h4>
-                  <div class="half-width">
-                      <p>I'm a huge comic book nerd, and was originally inspired to learn to design and code websites from reading Batgirl comics. I quickly fell in love with the process of designing and building websites from the ground up, and used my time in quarantine to level up my skills.</p>
+          <div class="main-container">
+              <div class="about-content">
+                  <h2>Who am I, anyway?</h2>
+                  <p>I'm a huge comic book nerd, and was originally inspired to learn to code websites from reading Batgirl comics. I quickly fell in love with the process of building websites from the ground up, and used my time in quarantine to level up my skills.</p>
+                  <p>Before making the switch to a tech career, I managed a movie theater for 6 years. Before that, I attended the University of Missouri, where I studied English Literature, History and Art History.</p>
+                  <p>When I'm not working on new web projects, I love playing video games, watching movies, and relaxing with my favorite music.</p>
+              </div>
 
-                      <p>Before making the switch to a tech career, I managed a movie theater for 6 years, and before that, I studied English Literature, History, and Art History at the University of Missouri.  When I'm not working on new web projects, I love playing video games, studying Korean, watching movies, and relaxing with my favorite music.</p>
+              <div class="about-image-div">
+                  <div class="image-frame">
+                      <img src="img/headshot2.jpg" alt="picture of Lesley Wesley" class="headshot"/>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="skills">
+          <div class="main-container">
+              <div class="skills-frame">
+                  <div class="inner-container">
+                      <h2>Skills I Bring to the Table</h2>
+
+                      <ul class="skills-list">
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> HTML 5</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> CSS3</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> Vanilla JavaScript</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> ES6</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> REACT</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> PHP</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> Restful API's</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> JSON</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> Git and Version Control</li>
+                          <li><i class="fa-sharp fa-solid fa-circle-check"></i> Responsive Web Development</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="portfolio">
+          <div class="main-container">
+              <h2>Latest Projects</h2>
+              <div class="heading-underline"></div>
+
+              <div class="project-container">
+                  <img src="img/sticky-notes.jpg" alt="stick notes app" />
+                  <div class="project-details">
+                      <div class="project-details-container">
+                          <header>
+                              <h3>Sticky Notes App</h3>
+                              <div class="underline"></div>
+                              <p class="tools">Built with React & CSS</p>
+                          </header>
+                          <p class="project-description">
+                              This is a Sticky Notes app I built using React. The user can add notes, edit content, delete notes, and there's also a search feature. Notes are also saved in local storage, so they'll reappear if you refresh the page.
+                          </p>
+                          <footer>
+                              <a href="https://22s6ej.csb.app/" target="_blank" class="live-site-link">View Live Site</a>
+                          </footer>
+                      </div>
+                  </div>
+                </div>
+                <!--End of Sticky Notes Site-->
+
+
+              <div class="project-container">
+                  <img src="img/ecommercesite.jpg" alt="E-commerce product page" />
+                  <div class="project-details">
+                      <div class="project-details-container">
+                          <header>
+                              <h3>E-Commerce Product Page</h3>
+                              <div class="underline"></div>
+                              <p class="tools">Built with HTML5, CSS3, and JavaScript</p>
+                          </header>
+                          <p class="project-description">
+                              A fully-responsive, one-page e-commerce product page for a sneaker company. JavaScript elements include the cart functionality, as well as a photo carousel for the mobile version, and an image lightbox for the desktop version.
+                          </p>
+                          <footer>
+                              <a href="https://lesleywesley.github.io/ecommerce-product-page/" target="_blank" class="live-site-link">View Live Site</a>
+                          </footer>
+                      </div>
+                  </div>
+                </div>
+                <!--End of Ecommerce Site-->
+
+                  <div class="project-container">
+                      <img src="img/advice-generator.jpg" alt="Advice Generator App" />
+                      <div class="project-details">
+                          <div class="project-details-container">
+                              <header>
+                                  <h3>Advice Generator App</h3>
+                                  <div class="underline"></div>
+                                  <p class="tools">Built with HTML5, CSS3, JavaScript, and the <a href="https://api.adviceslip.com/" target="_blank">Advice Slip API</a></p>
+                              </header>
+                              <p class="project-description">
+                                  A fully-responsive app that utilizes the Advice Slip API to generate a random piece of advice when the button is clicked.
+                              </p>
+                              <footer>
+                                  <a href="https://lesleywesley.github.io/advice-generator/" target="_blank" class="live-site-link">View Live Site</a>
+                              </footer>
+                          </div>
+                      </div>
+                  </div>
+                  <!--End of Advice Generator-->
+
+                  <div class="project-container">
+                      <img src="img/tip-calculator.jpg" alt="Tip Calculator App" />
+                      <div class="project-details">
+                          <div class="project-details-container">
+                              <header>
+                                  <h3>Tip Calculator App</h3>
+                                  <div class="underline"></div>
+                                  <p class="tools">Built with HTML5, CSS3, and JavaScript</p>
+                              </header>
+                              <p class="project-description">
+                                  Bad at math but love getting dinner with friends? This tip calculator takes the stress out of those weekly get-togethers by calculating your portion of the check and tip, based on the total price of dinner and the number of people.
+                              </p>
+                              <footer>
+                                  <a href="https://lesleywesley.github.io/tip-calculator/" target="_blank" class="live-site-link">View Live Site</a>
+                              </footer>
+                          </div>
+                      </div>
                   </div>
 
-                  <div class="half-width">
-                    <figure>
-                        <img src="img/headshot2.png" alt="Profile Pic 1" />
-                    </figure>
+                  <!--End of Tip Calculator-->
+              </div>
+
+              <p class="github-link">Want to see more?<br> Check out my Github <a href="https://github.com/LesleyWesley" target="_blank">here.</a></p>
+
+          </div>
+      </section>
+
+      <section id="contact">
+          <div class="main-container">
+              <div class="divider"></div>
+                  <h2>Interested in hiring me for your next project?</h2>
+                  <p>Feel free to shoot me a message, and I'll get back to you as soon as possible!</p>
+
+                  <div class="contact-info-div">
+                      <div class="email-div">
+                          <h3>Email Me</h3>
+                          <a href="mailto: lesleywesleycodes@gmail.com">LesleyWesleyCodes@gmail.com</a>
+                      </div>
+                      <div class="social-media-div">
+                          <h3>Follow Me</h3>
+                          <ul class="social-media">
+                              <li><a href="https://github.com/LesleyWesley" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/lesley-wesley/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                          </ul>
+                      </div>
                   </div>
-
-
-
-
+              <div class="divider"></div>
           </div>
       </section>
   </main>
 
-  <footer id="contact">
-      <div class="full-width">
-          <h4>Contact</h4>
-              <h5>Interested in hiring me for your next project?</h5>
-              <p>Feel free to shoot me a message, and I'll get back to you as soon as possible!</p>
-
-          <div class="contact-info">
-
-
-              <div class="half-width">
-
-                  <h6>Email Me:</h6>
-                      <a href="mailto:lesleywesleycodes@gmail.com" class="email">
-                        lesleywesleycodes@gmail.com
-                      </a>
-
+  <footer>
+      <div class="container">
+          <div class="footer-main">
+              <div class="logo-div">
+                  <i class="fa-solid fa-code"></i>
+                  <p class="name">Lesley<span class="last-name">Wesley</span></p>
               </div>
-              <div class="half-width">
+              <nav aria-label="Footer Navigation">
+                  <ul>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                  </ul>
+              </nav>
+          </div>
 
-                  <h6>Follow Me:</h6>
-                      <a href="https://github.com/LesleyWesley" target="_blank">
-                          <i class="fab fa-github"></i>
-                      </a>
-
-                      <a href="https://www.instagram.com/lesleyrwesley/?hl=en" target="_blank">
-                          <i class="fab fa-instagram"></i>
-                      </a>
-
-                      <a href="https://www.linkedin.com/in/lesley-wesley-9517911b2/" target="_blank">
-                          <i class="fab fa-linkedin"></i>
-                      </a>
-
-              </div>
-            </div>
-
-            <div class="copyright-div">
-                  <i class="far fa-copyright"></i>
-                  <p>Lesley Wesley 2023</p>
-            </div>
-
+          <p class="copyright">Copyright © Lesley Wesley 2023</p>
       </div>
   </footer>
 
 
+<!--End of custom HTML -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
